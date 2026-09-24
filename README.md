@@ -1,2 +1,0 @@
-# van-megam
-project
