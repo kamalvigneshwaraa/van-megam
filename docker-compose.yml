@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tdma-brain:
+    build: .
+    container_name: emane_tdma_brain
+    volumes:
+      - .:/app
+    command: python3 tdma_brain.py --file nodes.json

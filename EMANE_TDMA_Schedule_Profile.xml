@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<emane-tdma-schedule version="1.0">
+  <structure frames="1" slots="9" slotduration="1000" bandwidth="1000000">
+    <frequency index="0" hz="2400000000"/>
+  </structure>
+  <schedule>
+    <slot index="0">
+      <tx nem="6" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="1">
+      <tx nem="7" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="2">
+      <tx nem="11" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="3">
+      <tx nem="10" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="4">
+      <tx nem="2" frequency="0" power="0.0"/>
+      <tx nem="15" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="5">
+      <tx nem="9" frequency="0" power="0.0"/>
+      <tx nem="12" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="6">
+      <tx nem="3" frequency="0" power="0.0"/>
+      <tx nem="14" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="7">
+      <tx nem="5" frequency="0" power="0.0"/>
+      <tx nem="8" frequency="0" power="0.0"/>
+    </slot>
+    <slot index="8">
+      <tx nem="1" frequency="0" power="0.0"/>
+      <tx nem="4" frequency="0" power="0.0"/>
+      <tx nem="13" frequency="0" power="0.0"/>
+      <tx nem="16" frequency="0" power="0.0"/>
+    </slot>
+  </schedule>
+</emane-tdma-schedule>
